@@ -28,8 +28,9 @@ git clone https://github.com/espring/nodejs-module-template.git foo-helper
 2. Use the AI editor to apply customizations with these instructions:
 
 ```
+This project is a Node.js module
 * Change project name to foo-helper
-* Set DEBUG_TAG to 'FOO' in bin/utils.ts
+* Set DEBUG_TAG to 'FOO' in @src/bin/utils.ts
 * Skip npm install command execution
 ```
 

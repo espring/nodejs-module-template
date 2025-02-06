@@ -1,7 +1,14 @@
 {
-  "extends": "../../tsconfig.cjs.json",
-  "include": ["src"],
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "lib/cjs"
-  }
+    "module": "CommonJS",
+    "outDir": "lib/cjs",
+    "rootDir": "src",
+    "types": ["node"],
+    "target": "ES2016",
+    "sourceMap": true,
+    "composite": true,
+    "moduleResolution": "node"
+  },
+  "include": ["src"]
 }
